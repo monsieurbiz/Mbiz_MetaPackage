@@ -1,0 +1,41 @@
+{
+    "name": "monsieurbiz/mbiz_metapackage",
+    "description": "Metapackage of Magento modules which are required on every Magento project",
+    "type": "metapackage",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jacques Bodin-Hullin",
+            "email": "j.bodinhullin@monsieurbiz.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.firegento.com"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.monsieurbiz.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "^3.0",
+        "inchoo/php7": "^1.0",
+        "jacquesbh/jbh_cartmerge": "^0.1",
+        "jacquesbh/jbh_connectas": "^0.1",
+        "jacquesbh/jbh_homepage": "^0.1",
+        "monsieurbiz/mbiz_ajax": "^0.1",
+        "monsieurbiz/mbiz_bodyclass": "^0.1",
+        "monsieurbiz/mbiz_catalog": "^0.1",
+        "monsieurbiz/mbiz_cms": "^0.1",
+        "monsieurbiz/mbiz_customerbreadcrumbs": "^0.1",
+        "monsieurbiz/mbiz_customernavigation": "^0.1",
+        "monsieurbiz/mbiz_errorpages": "^0.1",
+        "monsieurbiz/mbiz_imagecrop": "^0.1",
+        "monsieurbiz/mbiz_menu": "^0.1",
+        "monsieurbiz/mbiz_price": "^0.1",
+        "monsieurbiz/mbiz_robotstxt": "^0.1",
+        "monsieurbiz/mbiz_setup": "^0.1"
+    }
+}
